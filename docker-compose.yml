@@ -1,0 +1,11 @@
+services:
+  hentai-downloader:
+    container_name: pookieg
+    build:
+      context: .
+      dockerfile: DockerFile
+    restart: unless-stopped
+    volumes:
+      - ~/.ssh:/root/.ssh:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: "python3 main.py"

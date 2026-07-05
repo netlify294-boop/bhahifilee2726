@@ -1,0 +1,23 @@
+# pyrogram
+pyrofork
+tgcrypto
+pymongo>=4.3.0
+motor>=3.1.1
+dnspython>=2.3.0
+aiohttp>=3.8.1
+pyromod==1.5
+python-dotenv>=0.21.0
+shortzy
+psutil
+aiofiles
+asyncio
+nest_asyncio
+pytz
+requests
+bs4
+cryptography
+beautifulsoup4
+cryptography
+Pillow>=10.0.0
+qrcode
+opencv-python-headless
