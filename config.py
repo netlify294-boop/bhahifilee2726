@@ -1,7 +1,7 @@
 import os, logging, sys
 
-API_ID = 1796091
-API_HASH = "cd65e421230a205426e5e015dc9acd"
+API_ID = 35705631
+API_HASH = "f99495d459f190bb24c74d309a8d635e"
 BOT_TOKEN = "8995626075:AAG03qYcSoiwIxwxkdmlE6ownW-ppyrmwIk"
 
 DB_URI = os.environ.get("DATABASE_URL", "")
