@@ -5,7 +5,6 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 from database import *
 from config import *
 from helper import *
-from plugins.scrapper import encode
 
 _temp, _batch_tasks, _batch_session = {}, {}, {}
 _batch_links = {}   # <-- stores batch ids
